@@ -1,9 +1,12 @@
 .activeBtn {
-    background-color: rgb(74, 118, 201);
+    background-color: rgb(47, 107, 218);
     color: white !important;
 }
 
 .content {
-    
     transition: 0.5s;
+}
+
+.btn {
+    border: rgb(233, 233, 233) solid 1px;
 }

@@ -6,8 +6,8 @@ $(document).ready(function () {
         if (value == "all") {
             $('.filter').show('1000');
         } else {
-            $(".filter").not('.' + value).hide();
-            $('.filter').filter('.' + value).show();
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
 
         }
     });
